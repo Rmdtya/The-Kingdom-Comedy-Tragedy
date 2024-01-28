@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a784e32cb9dceae45ba8614720f6742f, type: 3}
+  m_Name: Event 2
+  m_EditorClassIdentifier: 
+  _time: 10
+  _change: 5
+  _listDataInput:
+  - _amarah: -10
+    _humor: -1
+    _perasaan: 0
+  - _amarah: 10
+    _humor: -10
+    _perasaan: -5
+  - _amarah: 2
+    _humor: 5
+    _perasaan: 0
+  - _amarah: -5
+    _humor: 2
+    _perasaan: 2
+  - _amarah: 10
+    _humor: 0
+    _perasaan: 0
+  _textEvent: Picu Ledakan angin (5 Kali Kesempatan)

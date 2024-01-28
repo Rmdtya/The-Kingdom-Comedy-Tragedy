@@ -1,0 +1,222 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "RythmAction",
+            "id": "08734e2b-a065-4a09-b133-2a29608ed484",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "PassThrough",
+                    "id": "ffb424ad-b307-4435-92c1-0f9b328758fa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "PassThrough",
+                    "id": "78628f98-7140-4dac-b4a1-6ea10f0833e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Up",
+                    "type": "PassThrough",
+                    "id": "c48ba0fa-d92e-4dbd-b1cf-470af205c216",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Down",
+                    "type": "PassThrough",
+                    "id": "7b869910-837a-4cff-9b35-9106f54964ca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "db5e239b-26d8-4c54-ada1-a33636b8aa49",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e986133a-d8f1-4461-aee6-844174edbfa4",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e0c02c6f-f2cf-4719-9f5e-ddb8a6276bf4",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "45f64843-58f9-472f-af62-0029588c3798",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ItemAction",
+            "id": "70f21fc8-a578-4894-9918-dff5e4914cf3",
+            "actions": [
+                {
+                    "name": "One",
+                    "type": "PassThrough",
+                    "id": "8d90025a-c0e0-43c2-97a8-0a8ccbdd9b12",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Two",
+                    "type": "PassThrough",
+                    "id": "9b06f0d4-23cd-4b7d-b5b8-5dbf7ee65a5a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Three",
+                    "type": "PassThrough",
+                    "id": "aa760d9b-2622-495d-a8af-ea237b6eb60f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Four",
+                    "type": "PassThrough",
+                    "id": "d801f182-9d4f-4fd6-b461-f4a2e01096ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Five",
+                    "type": "PassThrough",
+                    "id": "d05bb55e-56dd-47b6-95f8-71792d290fae",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Six",
+                    "type": "PassThrough",
+                    "id": "52fd4251-b209-4d55-9d7d-bdf3ca64ab49",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "205fbd58-234d-47b7-aa3c-c6b1588ba157",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "One",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f99cadfb-1314-4606-9ad7-97aa13bd63ab",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Two",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eb93a2d4-a1fa-4c73-9944-3652b1a7549c",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Three",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5688c262-0f87-4ecb-bda3-8b627528925e",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Four",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f3c1ba0-8eed-4767-9c61-f72e5c3aa6ce",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Five",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bb4ca136-db93-4e0c-a2a3-d06eca14cdde",
+                    "path": "<Keyboard>/6",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Six",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
