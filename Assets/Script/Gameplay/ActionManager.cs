@@ -49,6 +49,7 @@ namespace Rmdtya
 
         [Header("COMBO")]
         [SerializeField] private int comboRythm;
+        [SerializeField] private int nullAction = 0;
 
         private void Awake()
         {
@@ -71,6 +72,11 @@ namespace Rmdtya
             isEventTrigger = false;
             changeLeft = dataEvent[currentEvent].change;
             listItemAction = new float[dataEvent[currentEvent].change];
+
+            for (int i = 0; i < listItemAction.Length; i++)
+            {
+                listItemAction[i] = 0;
+            }
 
             durationEvent = new float[dataEvent.Length];
 
@@ -109,6 +115,12 @@ namespace Rmdtya
                 {
                     isCountdown = false;
                     listItemAction = new float[dataEvent[currentEvent].change];
+
+                    for(int i = 0;i < listItemAction.Length; i++)
+                    {
+                        listItemAction[i] = 0;
+                    }
+
                     changeLeft = dataEvent[currentEvent].change;
                     isEventTrigger = true;
                     changeNow = 0;
@@ -154,6 +166,11 @@ namespace Rmdtya
                     isCountdown = true;
                     isEventTrigger = false;
                     currentEvent++;
+
+                    ChekingItemAction();
+
+                GameManager.instance.UpdateStatusKings();
+                GameManager.instance.ChekingStatus();
             }
                 else
                 {
@@ -374,6 +391,33 @@ namespace Rmdtya
             {
 
             }
+        }
+
+        public void ChekingItemAction()
+        {
+            bool isminus = false;
+            for(int i = 0; i < listItemAction.Length; i++)
+            {
+                if(listItemAction[i] == 0)
+                {
+                    GameManager.instance.amarah += 10;
+                    GameManager.instance.perasaan -= 10;
+                    GameManager.instance.humor -= 10;
+
+                    if (!isminus)
+                    {
+                        isminus = true;
+                        GameManager.instance.UIManager.ShowStatUp(_sprite[0], 10, true, 1);
+                        GameManager.instance.UIManager.ShowStatUp(_sprite[1], 10, false, 2);
+                        GameManager.instance.UIManager.ShowStatUp(_sprite[2], 10, false, 3);
+                    }
+                }
+            }
+
+
+
+
+
         }
 
         public void BreakCombo()

@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 71782
+  controlID: 14899
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 71661
+  controlID: 14841
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 71662
+  controlID: 14781
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,8 +193,8 @@ MonoBehaviour:
     y: 0
     width: 301
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -239,7 +239,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 34cefeffd0d3feff641cffff6c73ffffc87affffc68dffff50b9ffff94b9ffff78bfffffa4ccfffffeccffff82cdffffc8e8ffff64f5ffff42f9ffff16fbffff98690000aa690000a06a00000c6d0000e0760000109700003497000040a300008ca3000028a4000052ee000086ee0000beee000072f7000018f80000
+      m_ExpandedIDs: 8869ffffd469ffff1e6cffff306cffff426cffffe493ffffa49bffff189fffff9eb0fffff6baffffc0f4ffffa0f8ffffecf8ffffa6f9ffff16fbfffff4ffffff3e6f0000b26f0000c26f00008cae0000f8d10000dcd60000b8d7000004de000004df0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -282,8 +282,8 @@ MonoBehaviour:
     y: 0
     width: 498
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -685,9 +685,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.622414, y: 1.5107403, z: -2.008553}
+    m_Target: {x: 959.9995, y: 776.6196, z: 0}
     speed: 2
-    m_Value: {x: -0.622414, y: 1.5107403, z: -2.008553}
+    m_Value: {x: 959.9995, y: 776.6196, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -737,9 +737,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.6995937
+    m_Target: 455.67493
     speed: 2
-    m_Value: 1.6995937
+    m_Value: 455.67493
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -887,8 +887,8 @@ MonoBehaviour:
     y: 0
     width: 692
     height: 573
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 71723
+  controlID: 14842
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -992,7 +992,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Data/Prefab
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1000,16 +1000,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Data/Prefab
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Tutorial\Unity\Agate GameJam 2024
+  m_LastProjectPath: D:\Tutorial\Unity\Try Code
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 26}
-    m_SelectedIDs: 1a8e0000
-    m_LastClickedID: 36378
-    m_ExpandedIDs: 00000000cc68000000ca9a3bffffff7f
+    m_SelectedIDs: e6650000
+    m_LastClickedID: 26086
+    m_ExpandedIDs: 00000000e665000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1037,7 +1037,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc68000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000e665000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1062,8 +1062,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 28a40000
-    m_LastClickedInstanceID: 42024
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300003ec40000daaa00004c740000ca730000a46f0000
     m_RenameOverlay:
@@ -1163,7 +1163,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 63628
+  m_LastSelectedObjectID: 71324
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1183,8 +1183,8 @@ MonoBehaviour:
     y: 0
     width: 757
     height: 414
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -1235,7 +1235,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Data
+    - Assets/Script/Gameplay
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1243,16 +1243,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Data
+  - Assets/Script/Gameplay
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Tutorial\Unity\Agate GameJam 2024
+  m_LastProjectPath: D:\Tutorial\Unity\Try Code
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 54}
-    m_SelectedIDs: e4680000
-    m_LastClickedID: 26852
-    m_ExpandedIDs: 00000000cc68000000ca9a3bffffff7f
+    m_SelectedIDs: d26f0000
+    m_LastClickedID: 28626
+    m_ExpandedIDs: 00000000e6650000fe65000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1280,7 +1280,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc68000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000e665000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1305,8 +1305,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8cf80000
-    m_LastClickedInstanceID: 63628
+    m_SelectedInstanceIDs: 9c160100
+    m_LastClickedInstanceID: 71324
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: a27800003ec40000dec30000287400007c3c0100a46f0000
     m_RenameOverlay:
@@ -1355,8 +1355,8 @@ MonoBehaviour:
     y: 0
     width: 429
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -1402,7 +1402,7 @@ MonoBehaviour:
     m_CachedPref: 297
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 63628
+  m_LastInspectedObjectInstanceID: 71324
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

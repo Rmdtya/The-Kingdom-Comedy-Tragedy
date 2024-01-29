@@ -31,6 +31,7 @@ namespace Rmdtya
 
         public void Start()
         {
+            Time.timeScale = 1f;
             audioSource.clip = audioClip;
             audioSource.loop = true;
             audioSource.Play();
@@ -52,8 +53,6 @@ namespace Rmdtya
         {
             textMeshKeterangan.text = " ";
             panelText.gameObject.SetActive(true);
-            panelText.alpha = 0f;
-            FadeIn(panelText);
             StartCoroutine(InitialTextProlog());
         }
 
@@ -133,6 +132,11 @@ namespace Rmdtya
         {
             dataLevel.levelSelected = level;
             SceneManager.LoadScene("Gameplay");
+        }
+
+        public void SkipScene()
+        {
+            panelStarter.SetActive(true);
         }
 
     }

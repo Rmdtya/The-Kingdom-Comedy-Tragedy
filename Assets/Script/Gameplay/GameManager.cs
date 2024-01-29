@@ -81,12 +81,13 @@ namespace Rmdtya
 
         private void Start()
         {
+            Time.timeScale = 1f;
             LoadData();
             _playerSkor = 100f;
 
             _amarah = 0f;
-            _humor = 30f;
-            _perasaan = 40f;
+            _humor = 60f;
+            _perasaan = 60f;
 
             UpdateStatusKings();
         }
